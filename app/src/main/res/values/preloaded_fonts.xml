@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abhaya_libre_medium</item>
+        <item>@font/arizonia</item>
+        <item>@font/atomic_age</item>
+        <item>@font/delius_swash_caps</item>
+        <item>@font/iceberg</item>
+        <item>@font/vesper_libre</item>
+    </array>
+</resources>

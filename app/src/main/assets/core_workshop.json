@@ -1,0 +1,92 @@
+[
+    {
+        "event_name":"COreWork",
+        "event_id":"1001",
+        "event_dept":"CS",
+        "event_link":"domain.link.com",
+        "eventdesc": "The domestic dog (Canis lupus familiaris when considered a subspecies of the gray wolf or Canis familiaris when considered a distinct species)[4] is a member of the genus Canis (canines), which forms part of the wolf-like canids,[5] and is the most widely abundant terrestrial carnivore.[6][7][8][9][10] The dog and the extant gray wolf are sister taxa[11][12][13] as modern wolves are not closely related to the wolves that were first domesticated,[12][13] which implies that the direct ancestor of the dog is extinct.[14] The dog was the first species to be domesticated[13][15] and has been selectively bred over millennia for various behaviors, sensory capabilities, and physical attributes.",
+        "category":"adventure",
+        "imagename":"imga.jpg"
+    },
+    {
+        "event_name": "YourEvent",
+        "event_id": "1002",
+        "event_dept": "EC",
+        "event_link": "domain.Ylink.com",
+        "eventdesc": "The domestic cat is a small, typically furry, carnivorous mammal. They are often called house cats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines. Wikipedia",
+        "category": "action",
+        "imagename": "imgb.jpg"
+
+    },
+    {
+        "event_name": "YourEvent",
+        "event_id": "1003",
+        "event_dept": "EC",
+        "event_link": "domain.Ylink.com",
+        "eventdesc": "The domestic cat is a small, typically furry, carnivorous mammal. They are often called house cats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines. Wikipedia",
+        "category": "action",
+        "imagename": "imgb.jpg"
+
+    },
+    {
+        "event_name": "YourEvent",
+        "event_id": "1003",
+        "event_dept": "EC",
+        "event_link": "domain.Ylink.com",
+        "eventdesc": "The domestic cat is a small, typically furry, carnivorous mammal. They are often called house cats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines. Wikipedia",
+        "category": "action",
+        "imagename": "imgb.jpg"
+
+    },
+    {
+        "event_name": "YourEvent",
+        "event_id": "1004",
+        "event_dept": "EC",
+        "event_link": "domain.Ylink.com",
+        "eventdesc": "The domestic cat is a small, typically furry, carnivorous mammal. They are often called house cats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines. Wikipedia",
+        "category": "action",
+        "imagename": "imgb.jpg"
+
+    },
+    {
+        "event_name": "YourEvent",
+        "event_id": "1005",
+        "event_dept": "EC",
+        "event_link": "domain.Ylink.com",
+        "eventdesc": "The domestic cat is a small, typically furry, carnivorous mammal. They are often called house cats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines. Wikipedia",
+        "category": "action",
+        "imagename": "imgb.jpg"
+
+    },
+    {
+        "event_name": "YourEvent",
+        "event_id": "1006",
+        "event_dept": "EC",
+        "event_link": "domain.Ylink.com",
+        "eventdesc": "The domestic cat is a small, typically furry, carnivorous mammal. They are often called house cats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines. Wikipedia",
+        "category": "action",
+        "imagename": "imgb.jpg"
+
+    },
+    {
+        "event_name": "YourEvent",
+        "event_id": "1007",
+        "event_dept": "EC",
+        "event_link": "domain.Ylink.com",
+        "eventdesc": "The domestic cat is a small, typically furry, carnivorous mammal. They are often called house cats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines. Wikipedia",
+        "category": "action",
+        "imagename": "imgb.jpg"
+
+    },
+    {
+        "event_name": "YourEvent",
+        "event_id": "1008",
+        "event_dept": "EC",
+        "event_link": "domain.Ylink.com",
+        "eventdesc": "The domestic cat is a small, typically furry, carnivorous mammal. They are often called house cats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines. Wikipedia",
+        "category": "action",
+        "imagename": "imgb.jpg"
+
+    }
+
+]

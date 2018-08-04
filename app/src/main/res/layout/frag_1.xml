@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/servicegolive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:alpha=".5"
+                android:fontFamily="@font/vesper_libre"
+                android:text="Service go live on takshak day"
+                android:textAlignment="center" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/timeremaining"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:id="@+id/songtitlelayout"
+                android:layout_margin="10dp"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="6dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:paddingHorizontal="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/vesper_libre"
+                    android:text="Song Title"
+                    android:textColor="@color/mytextcolor"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/songtitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:fontFamily="@font/vesper_libre"
+                    android:hint="*Required"
+                    android:paddingHorizontal="10dp"
+                    android:textColor="@color/mytextcolor"
+                    android:textColorHint="@color/hintcolor" />
+            </LinearLayout>
+            <LinearLayout
+                android:elevation="6dp"
+                android:id="@+id/songmorelayout"
+                android:layout_below="@+id/songtitlelayout"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/vesper_libre"
+                        android:paddingHorizontal="10dp"
+                        android:text="More Info"
+                        android:textColor="@color/mytextcolor"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/moreinfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:fontFamily="@font/vesper_libre"
+                        android:hint="*Optional\n   -MovieName\n   -Artist\n    -Dedication"
+                        android:paddingHorizontal="10dp"
+                        android:gravity="top"
+                        android:textColor="@color/mytextcolor"
+                        android:textColorHint="@color/hintcolor" />
+                </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sendsongbutton"
+                android:layout_margin="8dp"
+                android:layout_below="@id/songmorelayout"
+                android:background="@color/colorPrimary"
+                android:text="Request Song"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/login"
+                android:layout_margin="8dp"
+                android:layout_below="@id/sendsongbutton"
+                android:background="@color/colorPrimary"
+                android:text="Login"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</ScrollView>
