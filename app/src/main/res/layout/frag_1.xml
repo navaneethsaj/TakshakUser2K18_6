@@ -4,10 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     >
-
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -111,16 +109,18 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/sendsongbutton"
                 android:layout_margin="8dp"
+                android:elevation="8dp"
                 android:layout_below="@id/songmorelayout"
-                android:background="@color/colorPrimary"
+                android:background="@drawable/gradient_button"
                 android:text="Request Song"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/login"
                 android:layout_margin="8dp"
+                android:elevation="8dp"
                 android:layout_below="@id/sendsongbutton"
-                android:background="@color/colorPrimary"
+                android:background="@drawable/gradient_button"
                 android:text="Login"/>
 
         </RelativeLayout>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     android:orientation="vertical"
-    android:background="#000"
+    android:background="@drawable/gradient_notification_bg"
     android:layout_height="match_parent"
     tools:context=".profile">
 
@@ -21,34 +21,25 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="6dp"
-                android:layout_marginTop="8dp"
-                android:background="@color/white"
-                android:elevation="4dp"
+                android:layout_height="50dp"
+                android:background="@drawable/gradient_appbar"
+                android:elevation="8dp"
+                android:gravity="center"
                 android:fontFamily="@font/vesper_libre"
-                android:gravity="center_horizontal"
                 android:text="Notification"
                 android:textColor="@color/textcolor"
-                android:textSize="16dp" />
-            <View
-                android:layout_marginHorizontal="6dp"
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/dividercolor">
-
-            </View>
+                android:textSize="18sp" />
 
             <TextView
+                android:layout_marginTop="5dp"
                 android:id="@+id/notificationBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="6dp"
-                android:background="@color/white"
+                android:layout_marginHorizontal="2dp"
                 android:elevation="4dp"
                 android:fontFamily="@font/vesper_libre"
                 android:gravity="left"
-                android:paddingLeft="8dp"
+                android:paddingLeft="2dp"
                 android:paddingTop="10dp"
                 android:text="Updating notification"
                 android:textColor="@color/textcolor" />
@@ -59,7 +50,6 @@
                 android:textSize="11dp"
                 android:paddingHorizontal="10dp"
                 android:elevation="4dp"
-                android:background="@color/white"
                 android:layout_marginHorizontal="6dp"
                 android:layout_marginBottom="6dp"
                 android:gravity="right"/>

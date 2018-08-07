@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity
     VideoView vid;
     String path;
     Uri videouri;
-    String geturl="https://demo4664908.mockable.io/happy";
+    String geturl = "https://demo4664908.mockable.io/happy";
     @TargetApi(Build.VERSION_CODES.M)
     @RequiresApi(api = Build.VERSION_CODES.M)
     @Override

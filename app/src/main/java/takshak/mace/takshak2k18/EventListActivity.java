@@ -20,7 +20,7 @@ public class EventListActivity extends AppCompatActivity implements WorkshopFrag
         setContentView(R.layout.activity_event_list);
         Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        toolbar.setBackgroundColor(Color.rgb(100,220,220));
+        //toolbar.setBackgroundColor(Color.rgb(100,220,220));
         toolbar.setTitleTextColor(Color.WHITE);
         ActionBar ab = getSupportActionBar();
         // Enable the Up button

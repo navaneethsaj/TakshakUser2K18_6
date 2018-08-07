@@ -2,11 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/gradient_list_item"
     android:layout_height="match_parent">
     <LinearLayout
+        android:paddingVertical="8dp"
         android:id="@+id/itemlayout"
         android:orientation="vertical"
-        android:layout_margin="4dp"
         android:elevation="4dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -15,8 +16,10 @@
             android:id="@+id/eventImage"
             android:layout_width="match_parent"
             android:layout_height="179dp"
-            android:padding="4dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/image_round_edge"
             android:scaleType="fitXY"
+            android:elevation="4dp"
             android:src="@drawable/noimg" />
         <TextView
             android:id="@+id/eventName"
@@ -27,47 +30,52 @@
             android:layout_gravity="center_horizontal"
             android:textColor="@color/textcolor"
             android:textSize="20sp" />
-
-        <TextView
-            android:id="@+id/eventCategory"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingLeft="4dp"
-            android:text="Adventure"
-            android:layout_gravity="center_horizontal"
-            android:textColor="@color/textcolor"
-            android:textSize="18sp" />
-        <View
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_margin="4dp"
-            android:background="@color/blue"
-            />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="right"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content">
 
             <TextView
-                android:id="@+id/knowmore"
+                android:id="@+id/eventCategory"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:gravity="center_vertical"
-                android:text="more"
-                android:textColor="#C6C1C1" />
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="4dp"
+                android:text="Adventure"
+                android:textColor="@color/textcolor"
+                android:textSize="18sp" />
+            />
 
-            <ImageView
-                android:id="@+id/expandicon"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="bottom|right"
-                android:layout_margin="2dp"
-                android:backgroundTint="#c6c1c1"
-                android:src="@drawable/ic_more_vert_white_24dp" />
-        </LinearLayout>
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/knowmore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="more"
+                    android:textSize="16dp"
+                    android:textColor="#C6C1C1" />
+
+                <ImageView
+                    android:id="@+id/expandicon"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_gravity="bottom|right"
+                    android:layout_margin="2dp"
+                    android:backgroundTint="#c6c1c1"
+                    android:src="@drawable/ic_more_vert_white_24dp" />
+            </LinearLayout>
+
+        </RelativeLayout>
 
 
         <LinearLayout
@@ -107,14 +115,13 @@
 
             <Button
                 android:id="@+id/register"
-                android:layout_width="250dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/button_login"
+                android:background="@drawable/gradient_button"
                 android:gravity="center"
                 android:textAllCaps="false"
                 android:layout_gravity="center_horizontal"
-                android:paddingHorizontal="4dp"
-                android:layout_marginLeft="4dp"
+                android:layout_marginHorizontal="4dp"
                 android:text="Register" />
         </LinearLayout>
     </LinearLayout>

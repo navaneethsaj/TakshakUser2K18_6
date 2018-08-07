@@ -81,16 +81,16 @@ public class WorkShopEventAdapter extends ArrayAdapter<EventObject> {
                     expandImg.setImageResource(R.drawable.ic_arrow_drop_up_black_24dp);
                     knowmore.setText("less");
                     linearLayout.setVisibility(View.VISIBLE);
-                    imageView.getLayoutParams().width =(int) (200 * getContext().getResources().getDisplayMetrics().density);
-                    imageView.getLayoutParams().height =(int) (200 * getContext().getResources().getDisplayMetrics().density);
+                    //imageView.getLayoutParams().width =(int) (200 * getContext().getResources().getDisplayMetrics().density);
+                    //imageView.getLayoutParams().height =(int) (200 * getContext().getResources().getDisplayMetrics().density);
                     expanded = true;
 
                 }else {
                     expandImg.setImageResource(R.drawable.ic_more_vert_white_24dp);
                     linearLayout.setVisibility(View.GONE);
                     knowmore.setText("more");
-                    imageView.getLayoutParams().width =(int) (110 * getContext().getResources().getDisplayMetrics().density);
-                    imageView.getLayoutParams().height =(int) (110 * getContext().getResources().getDisplayMetrics().density);
+                    //imageView.getLayoutParams().width =(int) (110 * getContext().getResources().getDisplayMetrics().density);
+                    //imageView.getLayoutParams().height =(int) (110 * getContext().getResources().getDisplayMetrics().density);
                     expanded = false;
                 }
             }

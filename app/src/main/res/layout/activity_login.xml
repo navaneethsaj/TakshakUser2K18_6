@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="center_horizontal"
+    android:background="@drawable/gradient_bg"
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
@@ -97,12 +98,12 @@
                     android:layout_marginTop="40dp"
                     android:textAllCaps="false"
                     android:textColor="@color/white"
-                    android:background="@drawable/button_login"
+                    android:background="@drawable/gradient_button"
                     android:text="Login" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Or"
+                    android:text="OR"
                     android:textColor="#000"
                     android:layout_marginTop="10dp"
                     android:layout_gravity="center_horizontal"/>
@@ -115,7 +116,7 @@
                     android:textColor="#fff"
                     android:textAllCaps="false"
                     android:layout_marginBottom="30dp"
-                    android:background="@drawable/button_login"
+                    android:background="@drawable/gradient_button"
                     android:text="Sign up" />
 
             </LinearLayout>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#FF7F50</color>
+    <color name="colorPrimary">#005A8F</color>
     <color name="colorPrimaryDark">#FF6347</color>
     <color name="colorAccent">#FF4081</color>
     <color name="white">#fff</color>
@@ -16,4 +16,5 @@
     <color name="colorBackground">#ffffff</color>
     <color name="foreground_material_light">#ffffff</color>
     <color name="dividercolor">#FF7F50</color>
+    <color name="takshakblue">#005A8F</color>
 </resources>

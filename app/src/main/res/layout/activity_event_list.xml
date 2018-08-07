@@ -5,27 +5,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/gradient_bg"
     tools:context="takshak.mace.takshak2k18.EventListActivity">
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme">
+        android:layout_height="wrap_content">
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="?android:attr/colorAccent"
+            android:background="@drawable/gradient_appbar"
             android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
             app:popupTheme="@style/ThemeOverlay.AppCompat.ActionBar" />
         <android.support.design.widget.TabLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#000000"
+            android:background="@drawable/gradient_tablayout"
             android:minHeight="?android:actionBarSize"
             android:id="@+id/tablayout"/>
     </android.support.design.widget.AppBarLayout>
-
     <android.support.v4.view.ViewPager
+        android:paddingHorizontal="4dp"
+        android:layout_marginVertical="12dp"
         android:id="@+id/viewpagerevent"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
